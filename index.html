@@ -12,9 +12,9 @@
 <div class="ab-header container-fluid py-3 pt-5">
   <div class="row justify-content-between">
     <div class="w-auto d-flex align-items-center">
-        <button class="backbtn me-2 border-0 lobbymenuBtn" data-bs-toggle="modal" data-bs-target="#exitModal"><i class="fa-solid fa-chevron-left"></i></button>
+        <button class="backbtn me-2 border-0 lobbymenuBtn"><i class="fa-solid fa-bars"></i><!-- <i class="fa-solid fa-chevron-left"></i> --></button>
         
-        <div class="d-flex ms-4">
+        <div class="d-flex ms-2">
           <!-- <div class="winpoint">
             <i class="fa-solid fa-trophy"></i>
             <p class="mb-0"><strong>win</strong><span>400</span></p>
@@ -48,7 +48,7 @@
     <div class="playerCard bankercard text-center">
       <div class="playercard-border w-100">
       <!-- <img src="assets/img/card.png" class="w-100" /> -->
-      <div class="position-relative" style="height: 17.5vh;">
+      <div class="position-relative d-flex" style="height: auto;">
         <img src="assets/img/card.png" class="cardopenpatti m-0" />
         <img src="assets/img/card.png" class="cardopenpatti" />
         <img src="assets/img/card.png" class="cardopenpatti" />
@@ -61,13 +61,13 @@
 
     <div class="d-flex align-items-center playertotalpoint position-absolute justify-content-between">
     <div class="playerpoint text-center">
-      <span>2 : 2</span>
+      <span>2:2</span>
     </div>
     <div class="playerpoint text-center">
-      <span>9 : 1</span>
+      <span>9:1</span>
     </div>
     <div class="playerpoint text-center">
-      <span>2 : 2</span>
+      <span>2:2</span>
     </div>
   </div>
 
@@ -161,37 +161,38 @@
     
   </div>
 
-<div class="container position-absolute bottom-0 start-0 end-0 my-auto">
+<div class=" position-absolute bottom-0 start-0 end-0 my-auto" style="bottom: 2% !important;">
   <div class="row align-items-top justify-content-center">
-    <div class="w-auto">
+    <div class="w-auto d-flex align-items-center">
       <button class="userBtn bg-gradient overflow-hidden border-0 rounded-pill">
         <i class="fa-solid fa-user"></i>
         <span class="d-block" style="font-weight: 400;">50</span>
       </button>
-    </div>
-    <div class="col-8">
-      <div class="w-100 py-1 px-5 d-flex align-items-center justify-content-between playerbetpoint">
-        <div class="d-flex baccarat-player-active align-items-center w-auto">
+      <div class="d-flex baccarat-player-active align-items-center w-auto ms-2">
           <img src="assets/img/user.png" />
           <p class="mb-0">Guest001<strong class="d-block">5000.00</strong></p>
         </div>
+    </div>
+    <div class="col-5">
+      <div class="w-100 py-1 d-flex align-items-center justify-content-center playerbetpoint">
+        
         <div class="d-flex justify-content-center align-items-center playerBet">
-          <div class="me-3">
+          <div class="me-4 playerBeticon position-relative">
             <img class="winpointToggle" src="assets/img/bet.png" />
           </div>
-          <div class="me-3">
+          <div class="me-4 playerBeticon position-relative">
             <img src="assets/img/bet1.png" />
           </div>
-          <div class="me-3">
+          <div class="me-4 playerBeticon position-relative">
             <img src="assets/img/bet2.png" />
           </div>
-          <div class="me-3">
+          <div class="me-4 playerBeticon position-relative">
             <img src="assets/img/bet3.png" />
           </div>
-          <div class="me-3">
+          <div class="me-4 playerBeticon position-relative">
             <img src="assets/img/bet4.png" />
           </div>
-          <div>
+          <div class="playerBeticon position-relative">
             <img src="assets/img/bet5.png" />
           </div>
         </div>
@@ -389,7 +390,7 @@
 
 <!-- -----------------Menu------------------------- -->
 
-      <!-- <div class="lobbyMenu position-fixed top-0">
+      <div class="lobbyMenu position-fixed top-0">
         <button class="btn text-uppercase menumodaltext landscape-block">
           <img src="assets/img/list.png">Menu
         </button>
@@ -419,7 +420,7 @@
           </li>
         </ul>
 
-      </div> -->
+      </div>
 
 <!-- -----------------Menu------------------------- -->
 
