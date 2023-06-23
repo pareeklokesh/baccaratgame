@@ -2,7 +2,7 @@
 	--maincolor:#4bb84d;
 }
 * {
-	font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #fff;
   box-sizing: border-box;
 }
@@ -50,12 +50,13 @@ img {max-width: 100%;}
   justify-content: center;
   border-radius: 25px;
   margin-left: 8px;
-  padding: 2px 22px;
+  padding: 2px 16px;
 }
 .winpoint p strong, .winpoint p span {
   font-size: 16px;
   font-weight: 600;
   font-size: calc(0.7rem + ((1vw - 7.68px) * 0.6944));
+  font-family: 'news-706-bold-bt';
 }
 .winpoint p span {
   padding-left: 15px;
@@ -95,20 +96,22 @@ img {max-width: 100%;}
 }
 .baccarat-table {
   background: url('../img/baccarattable.png') no-repeat;
-  height: 66%;
+  height: 66vh;
   background-size: cover;
   position: absolute;
   bottom: 0px;
   width: 97%;
   left: 0;
   right: 0;
+  margin: 0px auto;
+  background-position: top center;
 }
 .userPoint {
   width: 100%;
   color: #3c2909;
   font-weight: 900;
   font-size: 16px;
-  padding: 2px 8px;
+  padding: 2px 15px;
   text-align: center;
   background: linear-gradient(to top, #ecb75e 2%, #e59141, #f1d159 , #faf0a0, #e5d380);
   border-radius: 25px;
@@ -117,24 +120,23 @@ img {max-width: 100%;}
   box-shadow: 0 2px 9px #000;
   font-size: calc(0.7rem + ((1vw - 7.68px) * 0.6944));
   min-width: 102px;
+  font-family: 'Poppins', sans-serif;
+}
+.playerCardFull {
+  top: -44%;
 }
 .playerCard {
-  position: absolute;
-  top: -44%;
-  left: -18%;
-  right: 0;
-  width: 109px;
-  margin: 0px auto;
+  width: 8.3%;
 }
 .playercard-border {
-  border: 1px dashed #f0c869;
+  border: 2px dotted #f0c869;
   padding: 5px;
   border-radius: 6px;
 }
-.bankercard {
+/*.bankercard {
   left: 0;
   right: -8%;
-}
+}*/
 .playerpoint h2 {
   font-weight: 700;
   font-size: 26px;
@@ -161,10 +163,11 @@ img {max-width: 100%;}
   border-radius: 50%;
   padding: 2px;
   position: relative;
-  width: calc(2.2375rem + ((1vw - 7.68px) * 3.9063));
-height: calc(2.2375rem + ((1vw - 7.68px) * 3.9063));
-border: 2px solid #811065;
+  width: calc(2.7375rem + ((1vw - 7.68px) * 3.9063));
+height: calc(2.7375rem + ((1vw - 7.68px) * 3.9063));
+border: 2px solid #eaaddf;
 position: relative;
+overflow: hidden;
 }
 .user-profile::before {
   content: "";
@@ -185,6 +188,7 @@ position: relative;
   width: 100%;
   z-index: 2;
   position: relative;
+  height: 100%;
 }
 .username span {
   background: #840f66;
@@ -195,6 +199,7 @@ position: relative;
   text-shadow: 0 0 10px #132f3b;
   box-shadow: 0 0 0px #000;
   font-size: calc(0.4rem + ((1vw - 7.68px) * 0.6944));
+  font-family: 'Poppins', sans-serif;
 }
 .username p {
   font-size: 14px;
@@ -206,10 +211,11 @@ position: relative;
   z-index: 11;
 }
 .username p label {
-  background: #000;
-  padding: 0 4px;
+  background: #150608;
+  padding: 0 2px;
   color: #ffda00;
   font-size: calc(0.4rem + ((1vw - 7.68px) * 0.6944));
+  font-family: 'Poppins', sans-serif;
 }
 .userpointBg {
   background: #6b5600;
@@ -235,25 +241,25 @@ height: calc(5.7rem + ((1vw - 7.68px) * 3.9063));
 }
 .baccarat-player {
   top: 2%;
-  left: 6%;
+  left: 5%;
 }
 .baccarat-player.baccarat-player1 {
   left: 2%;
   right: auto;
 }
 .baccarat-player1 {
-  top: 24%;
+  top: 25%;
 }
 .baccarat-player2 {
-  top: 49%;
-  left: -1%;
+  top: 48%;
+  left: -1.6%;
 }
 .baccarat-player.baccarat-player2.baccarat-player-right.position-absolute {
-  right: -1%;
+  right: -1.6%;
 }
 .baccarat-player-right {
   left: auto;
-  right: 6%;
+  right: 5%;
 }
 .baccarat-player.baccarat-player1.baccarat-player-right {
   left: auto;
@@ -268,6 +274,7 @@ height: calc(5.7rem + ((1vw - 7.68px) * 3.9063));
   padding-bottom: 16px;
   font-weight: 900;
   font-size: 22px;
+  font-family: 'news-706-bold-bt';
 }
 .userBtn i {
   color: #2a1804;
@@ -286,11 +293,11 @@ height: calc(5.7rem + ((1vw - 7.68px) * 3.9063));
   width: 55px;
   height: 55px;
   border-radius: 50%;
-  border: 2px solid #2a1c06;
+  border: 2px solid #001612;
   position: relative;
 }
 .baccarat-player-active p {
-  background: #2c1f05;
+  background: #001612;
   border-radius: 25px;
   font-size: 12px;
   padding: 2px 25px;
@@ -299,16 +306,16 @@ height: calc(5.7rem + ((1vw - 7.68px) * 3.9063));
 }
 .baccarat-player-active p strong {
   color: #f3ff54;
-  font-size: 14px;
+  font-size: 16px;
   margin-top: -2px;
 }
 .playerBet img {
   width: 60px;
-  border: 3px solid #2c1f05;
+  border: 5px solid #2c1f05;
   border-radius: 50%;
   transition: all .1s linear;
   cursor: pointer;
-  width: calc(2.2375rem + ((1vw - 7.68px) * 3.9063));
+  width: calc(5.2375rem + ((1vw - 7.68px) * 3.9063));
 }
 .baccaratModal .modal-content {
   background: #33190c;
@@ -384,8 +391,8 @@ height: calc(5.7rem + ((1vw - 7.68px) * 3.9063));
 }
 .winerbet .d-flex div {
   background: #605b5b;
-  width: 22px;
-  height: 22px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
   font-weight: 800;
   text-align: ;
@@ -399,16 +406,16 @@ height: calc(5.7rem + ((1vw - 7.68px) * 3.9063));
   background: rgba(0,0,0, 0.6);
 }
 .winerbet .d-flex {
-  gap: 8px;
+  gap: 6px;
 }
 .winerbet {
   position: absolute;
   left: 0;
-  right: -49%;
-  top: -46%;
-  padding: 10px;
+  right: -52%;
+  top: -44%;
+  padding: 4px;
   border-radius: 6px;
-  width: 285px;
+  width: 238px;
   margin: 0px auto;
   transform: scale(0);
   transition: all .4s linear;
@@ -462,11 +469,11 @@ height: calc(5.7rem + ((1vw - 7.68px) * 3.9063));
   background-size: auto;
   background-size: contain;
   position: absolute;
-  left: 27%;
+  left: 16%;
   margin: 0px auto;
-  top: -16%;
-  width: 75px;
-  height: 114px;
+  top: -17%;
+  width: calc(4.4rem + ((1vw - 7.68px) * 0.6944));
+  height: calc(7rem + ((1vw - 7.68px) * 0.6944));
   display: flex;
   align-items: center;
   justify-content: center;
@@ -481,7 +488,7 @@ height: calc(5.7rem + ((1vw - 7.68px) * 3.9063));
   transition: all .4s linear;
 }
 .playerBeticon:hover {
-  transform: scale(1.3);
+  transform: scale(1.2);
   margin-top: -25px;
 }
 .bankerwins {
@@ -506,15 +513,16 @@ height: calc(5.7rem + ((1vw - 7.68px) * 3.9063));
   margin-left: 0%;
 }
 .playertotalpointsub, .playertotalpointsub div {
-  font-size: 14px;
-  font-weight: 500;
+  font-size: calc(0.7rem + ((1vw - 7.68px) * 0.6944));
+  font-weight: 400;
+  font-family: 'news-706-bold-bt';
 }
 .playertotalpointsub {
   width: 47%;
-  top: 31.66%;
+  top: 29%;
 }
 .playerCard.bankercard {
-  width: 195px;
+  width: 14%;
 }
 .playerCard.bankercard .cardopenpatti {
   width: 40%;
@@ -528,9 +536,6 @@ height: calc(5.7rem + ((1vw - 7.68px) * 3.9063));
 .cardopenpatti {
   margin-left: -30%;
 }
-.playerCard.bankercard .cardopenpatti {
-  width: 98px !important;
-}
 .playerBeticon:hover::before {
   content: "";
   display: block;
@@ -539,8 +544,8 @@ height: calc(5.7rem + ((1vw - 7.68px) * 3.9063));
   background: url('../img/betactive.png') no-repeat;
   background-size: cover;
   position: absolute;
-  bottom: -8px;
-  left: -5px;
+  bottom: -14%;
+  left: -8%;
   background-position: center;
   cursor: pointer;
   transition: all .4s linear;
@@ -548,6 +553,29 @@ height: calc(5.7rem + ((1vw - 7.68px) * 3.9063));
 }
 .playerBeticon:hover img {
   border: 0;
+}
+.playerpoint strong {
+  color: #01231a;
+  font-size: calc(1.4rem + ((1vw - 7.68px) * 0.6944));
+  font-family: 'news-706-bold-bt';
+}
+.playerCard.bankercard .playercard-border img {
+  width: 53% !important;
+}
+.playercardPoint {
+  background: linear-gradient(to left, transparent, #221113 50%, transparent);
+  width: 85% !important;
+  margin: 0px auto;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+}
+.playerBet {
+  gap: 6%;
+}
+.ab-header {
+  z-index: 99;
+  position: relative;
 }
 
 
