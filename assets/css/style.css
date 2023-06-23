@@ -212,7 +212,7 @@ overflow: hidden;
   z-index: 11;
 }
 .username p label {
-  background: #150608;
+  background: linear-gradient(to top, #140507, #010000);
   padding: 0 2px;
   color: #ffda00;
   font-size: calc(0.4rem + ((1vw - 7.68px) * 0.6944));
