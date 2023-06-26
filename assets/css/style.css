@@ -242,7 +242,7 @@ height: calc(5.7rem + ((1vw - 7.68px) * 3.9063));
 }
 .baccarat-player {
   top: 2%;
-  left: 5%;
+  left: 5.5%;
 }
 .baccarat-player.baccarat-player1 {
   left: 2%;
@@ -260,7 +260,7 @@ height: calc(5.7rem + ((1vw - 7.68px) * 3.9063));
 }
 .baccarat-player-right {
   left: auto;
-  right: 5%;
+  right: 5.5%;
 }
 .baccarat-player.baccarat-player1.baccarat-player-right {
   left: auto;
@@ -577,6 +577,10 @@ height: calc(5.7rem + ((1vw - 7.68px) * 3.9063));
 .ab-header {
   z-index: 99;
   position: relative;
+}
+.pagebackbtn {
+  bottom: -40%;
+  left: 4px;
 }
 
 
