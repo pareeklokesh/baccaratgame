@@ -294,7 +294,7 @@ height: calc(5.7rem + ((1vw - 7.68px) * 3.9063));
   width: 55px;
   height: 55px;
   border-radius: 50%;
-  border: 2px solid #001612;
+  border: 2px solid #eaaddf;
   position: relative;
 }
 .baccarat-player-active p {
